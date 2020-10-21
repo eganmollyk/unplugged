@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/***** BASE STYLES *****/
+/***** BASE STYLES: HEADER FOOTER *****/
 
 header,
 footer {
@@ -95,13 +95,6 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-/***** HEADER *****/
-
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 header .content-wrapper {
@@ -127,6 +120,31 @@ header nav {
 
 header nav ul {
   display: flex;
+  justify-content: space-around;
+}
+
+/***** FOOTER *****/
+
+footer .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .copyright {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -136,7 +154,6 @@ header nav ul {
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -150,7 +167,6 @@ aside {
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -164,7 +180,6 @@ aside {
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -211,31 +226,7 @@ aside {
   flex-flow: row wrap;
 }
 
-/***** FOOTER *****/
 
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
