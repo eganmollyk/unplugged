@@ -395,7 +395,7 @@ aside {
     margin: 50px 0;
     display: flex;
     justify-content: space-between;
-    flex-row: row wrap;
+    flex-flow: row wrap;
   }
 
   aside .content-wrapper .form-info,
@@ -486,7 +486,50 @@ aside {
 }
 
 @media only screen and (min-width: 1200px) {
-  /***** DESKTOP *****/
+  /***** HOMEPAGE - DESKTOP *****/
+  .content-wrapper: {
+    max-width: 960px;
+  }
+
+  /** hero **/
+  .hero-area h1 {
+    width: 60%;
+  }
+
+  /** aside **/
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-info,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /** features **/
+  .features h2 {
+    width: 90%
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /** reviews **/
+  .reviews article div {
+    width: 40%;
+  }
+
+  /***** ABOUT - DESKTOP *****/
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 90%;
+  }
+
+  /***** FAQ - DESKTOP *****/
+  .faq h2 {
+    widith: 100%;
+  }
 }
 
 /* ==========================================================================
