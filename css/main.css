@@ -216,9 +216,6 @@ footer .content-wrapper {
 }
 
 footer .contact {
-  /**display: flex;
-  justify-content: center;
-  align-items: center;**/
   margin-bottom: 50px;
 }
 
@@ -229,9 +226,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -407,7 +412,8 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
-.faq-content {
+.faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -415,7 +421,12 @@ input[type=button] {
 }
 
 .faq h2 {
+  margin: 0 0 40px 0;
   line-height: 1;
+}
+
+.faq-content {
+  margin: 0 0 50px 0;
 }
 
 .faq-content h4 {
@@ -512,9 +523,9 @@ input[type=button] {
    ========================================================================== */
 
 @media only screen and (min-width: 786px) {
-  /***** HOMEPAGE - TABLET *****/
+/***** HOMEPAGE - TABLET *****/
 
-  /** general **/
+/** general **/
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
@@ -523,14 +534,14 @@ input[type=button] {
   h2 {
   font-size: 2.25em;
   line-height: 1.333;
-}
+  }
 
-h3 {
+  h3 {
     font-size: 1.5em;
     line-height: 1.25;
-}
+  }
 
-  /** header **/
+/** header **/
   header {
     justify-content: space-around;
     padding: 30px 0;
@@ -541,9 +552,9 @@ h3 {
     justify-content: space-between;
   }
 
-header figure {
-  width: 30%;
-}
+  header figure {
+    width: 30%;
+  }
 
   header nav {
     width: 20%;
@@ -557,7 +568,7 @@ header figure {
     display: none;
   }
 
-  /** hero area **/
+/** hero area **/
   .hero-area {
     min-height: 600px;
   }
@@ -566,9 +577,9 @@ header figure {
     font-size: 3em;
     line-height: 1;
     margin: 0;
-}
+  }
 
-  /** aside **/
+/** aside **/
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
@@ -582,7 +593,7 @@ header figure {
     margin: 0;
   }
 
-  /** features **/
+/** features **/
   .features article {
     display: flex;
     justify-content: center;
@@ -595,7 +606,7 @@ header figure {
     width: 50%;
   }
 
-  /** reviews **/
+/** reviews **/
   .reviews article {
     display: flex;
     justify-content: space-between;
@@ -614,36 +625,41 @@ header figure {
   width: 75%;
   margin: 0;
 }
-  /** footer **/
-footer .content-wrapper {
-  width: 65%;
-  margin: 100px 0;
-  }
 
-footer .footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  }
+/** footer **/
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+    }
 
-footer .contact {
-  margin-bottom: 0;
-}
+    footer .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+    }
 
-footer h4 {
-  font-size: 1.5em;
-  margin-bottom: 40px;
-}
+    footer .contact {
+      margin-bottom: 0;
+    }
 
-footer p {
-  line-height: 1.285;
-}
+    footer h4 {
+      font-size: 1.5em;
+      margin-bottom: 40px;
+    }
 
-footer .copyright {
-  width: 100%;
-}
-}
+    footer p {
+      line-height: 1.285;
+    }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
+    }
+
+    footer .copyright {
+      width: 100%;
+    }
 
 /***** ABOUT - TABLET *****/
 
@@ -788,7 +804,8 @@ footer h4 {
 
   /***** FAQ - DESKTOP *****/
   .faq h2 {
-    widith: 100%;
+    width: 100%;
+    font-size: 3em;
   }
 
   .faq h4,
