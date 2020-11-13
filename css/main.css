@@ -2,14 +2,14 @@
 
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+* What follows is the result of much research on cross-browser styling.
+* Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+* Kroc Camen, and the H5BP dev community and team.
+*/
 
 /* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+Base styles: opinionated defaults
+========================================================================== */
 
 html {
   color: #222;
@@ -18,14 +18,14 @@ html {
 }
 
 /*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
+* Remove text-shadow in selection highlight:
+* https://twitter.com/miketaylr/status/12228805301
+*
+* Vendor-prefixed and regular ::selection selectors cannot be combined:
+* https://stackoverflow.com/a/16982510/7133471
+*
+* Customize the background color to match your design.
+*/
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -38,8 +38,8 @@ html {
 }
 
 /*
- * A better looking default horizontal rule
- */
+* A better looking default horizontal rule
+*/
 
 hr {
   display: block;
@@ -51,10 +51,10 @@ hr {
 }
 
 /*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
+* Remove the gap between audio, canvas, iframes,
+* images, videos and the bottom of their containers:
+* https://github.com/h5bp/html5-boilerplate/issues/440
+*/
 
 audio,
 canvas,
@@ -66,8 +66,8 @@ video {
 }
 
 /*
- * Remove default fieldset styles.
- */
+* Remove default fieldset styles.
+*/
 
 fieldset {
   border: 0;
@@ -76,16 +76,16 @@ fieldset {
 }
 
 /*
- * Allow only vertical resizing of textareas.
- */
+* Allow only vertical resizing of textareas.
+*/
 
 textarea {
   resize: vertical;
 }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+Author's custom styles
+========================================================================== */
 /***** GENERAL STYLES *****/
 html {
   font-size: 16px;
@@ -143,7 +143,6 @@ address {
 }
 
 /***** BASE STYLES: HEADER FOOTER *****/
-
 header,
 footer {
   background-color: #202322;
@@ -244,7 +243,6 @@ footer .copyright {
 }
 
 /***** MOBILE HOMEPAGE *****/
-
 .hero-area {
   display: flex;
   justify-content: center;
@@ -263,14 +261,14 @@ footer .copyright {
 }
 
 /**header figure {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
 }
- .content-wrapper {
-  width: 90%;
+.content-wrapper {
+width: 90%;
 } **/
 
 /** aside **/
@@ -335,7 +333,7 @@ input[type=button] {
 }
 
 .features i {
-	font-size: 3.75em;
+  font-size: 3.75em;
   margin-bottom: 40px;
 }
 
@@ -372,10 +370,10 @@ input[type=button] {
 }
 
 /**.mission-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: row wrap;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-flow: row wrap;
 }**/
 
 .map {
@@ -403,7 +401,6 @@ input[type=button] {
 }
 
 /***** MOBILE FAQ *****/
-
 .faq {
   background-color: #527158;
   display: flex;
@@ -430,17 +427,17 @@ input[type=button] {
 }
 
 .faq-content h4 {
-  line-height: 1.333;
+  line-height: 2;
 }
 
 
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+Helper classes
+========================================================================== */
 
 /*
- * Hide visually and from screen readers
- */
+* Hide visually and from screen readers
+*/
 
 .hidden,
 [hidden] {
@@ -448,13 +445,13 @@ input[type=button] {
 }
 
 /*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
 
 .sr-only {
   border: 0;
@@ -470,10 +467,10 @@ input[type=button] {
 }
 
 /*
- * Extends the .sr-only class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
+* Extends the .sr-only class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
@@ -487,24 +484,24 @@ input[type=button] {
 }
 
 /*
- * Hide visually and from screen readers, but maintain layout
- */
+* Hide visually and from screen readers, but maintain layout
+*/
 
 .invisible {
   visibility: hidden;
 }
 
 /*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
 
 .clearfix::before,
 .clearfix::after {
@@ -517,23 +514,23 @@ input[type=button] {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+EXAMPLE Media Queries for Responsive Design.
+These examples override the primary ('mobile first') styles.
+Modify as content requires.
+========================================================================== */
 
 @media only screen and (min-width: 786px) {
-/***** HOMEPAGE - TABLET *****/
+  /***** HOMEPAGE - TABLET *****/
 
-/** general **/
+  /** general **/
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
   }
 
   h2 {
-  font-size: 2.25em;
-  line-height: 1.333;
+    font-size: 2.25em;
+    line-height: 1.333;
   }
 
   h3 {
@@ -541,7 +538,7 @@ input[type=button] {
     line-height: 1.25;
   }
 
-/** header **/
+  /** header **/
   header {
     justify-content: space-around;
     padding: 30px 0;
@@ -568,7 +565,7 @@ input[type=button] {
     display: none;
   }
 
-/** hero area **/
+  /** hero area **/
   .hero-area {
     min-height: 600px;
   }
@@ -579,7 +576,7 @@ input[type=button] {
     margin: 0;
   }
 
-/** aside **/
+  /** aside **/
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
@@ -593,7 +590,7 @@ input[type=button] {
     margin: 0;
   }
 
-/** features **/
+  /** features **/
   .features article {
     display: flex;
     justify-content: center;
@@ -606,7 +603,7 @@ input[type=button] {
     width: 50%;
   }
 
-/** reviews **/
+  /** reviews **/
   .reviews article {
     display: flex;
     justify-content: space-between;
@@ -626,274 +623,274 @@ input[type=button] {
   }
 
 
-.reviews h2 {
-  width: 85%;
+  .reviews h2 {
+    width: 85%;
   }
 
-.reviews h4 {
-  width: 75%;
-  margin: 0;
-}
+  .reviews h4 {
+    width: 75%;
+    margin: 0;
+  }
 
-/** footer **/
+  /** footer **/
   footer .content-wrapper {
     width: 65%;
     margin: 100px 0;
-    }
-
-    footer .footer-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: row;
-    }
-
-    footer .contact {
-      margin-bottom: 0;
-    }
-
-    footer h4 {
-      font-size: 1.5em;
-      margin-bottom: 40px;
-    }
-
-    footer p {
-      line-height: 1.285;
-    }
-
-    footer .social-icons {
-      width: 12.5em;
-      justify-content: space-between;
-    }
-
-    footer .copyright {
-      width: 100%;
-    }
-
-/***** ABOUT - TABLET *****/
-
-.mission-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0 0 0;
-}
-
-.mission-content p {
-  width: 45%;
-}
-
-.map {
-  padding-bottom: 50%;
-}
-
-.map iframe {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.contact-info .content-wrapper h2 {
-  width: 80%;
-}
-
-.contact-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.contact-info h4 {
-  font-size: 1.5em;
-}
-
-/***** FAQ - TABLET *****/
-.faq .content-wrapper {
-  justify-content: space-between;
-}
-
-.faq-content {
-  flex-basis: 45%;
-}
-
-.faq h2 {
-  width: 100%;
-}
-
-.faq h4,
-.faq p {
-    line-height: 1.125;
-}
-
-@media only screen and (min-width: 1200px) {
-  /***** HOMEPAGE - DESKTOP *****/
-
-  header {
-    padding: 15px 0;
   }
 
-  h2 {
-  font-size: 2.25em;
-}
-
-h3,
-h4 {
-    font-size: 1.875em;
-}
-
-p {
-    font-size: 1.125em;
-    line-height: 1.333;
-}
-
-  .content-wrapper {
-    max-width: 960px;
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
   }
 
-  /** hero **/
-  .hero-area h1 {
-    width: 80%;
-    font-size: 3.75em;
+  footer .contact {
+    margin-bottom: 0;
   }
 
-  /** aside **/
-  aside .content-wrapper {
-    justify-content: space-around;
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
   }
 
-  aside .content-wrapper .form-info,
-  aside .content-wrapper .form {
-    width: 40%;
+  footer p {
+    line-height: 1.285;
   }
 
-  .form-description p {
-  font-size: 1.125em;
-}
-
-  /** features **/
-  .features h2 {
-    width: 90%
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
-  .features article {
-    flex-basis: 33%;
+  footer .copyright {
+    width: 100%;
   }
 
-  /** reviews **/
-  .reviews h2 {
-  padding-bottom: 50px;
-}
-
-.reviews article div {
-    width: 40%;
+  /***** ABOUT - TABLET *****/
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0 0;
   }
 
-/** footer **/
-footer h4 {
-    font-size: 1.875em;
-  }
-
-  /***** ABOUT - DESKTOP *****/
-  .mission h2,
-  .contact-about .content-wrapper h2 {
-    width: 95%;
-    font-size: 3em;
+  .mission-content p {
+    width: 45%;
   }
 
   .map {
-    padding-bottom: 40%;
+    padding-bottom: 50%;
   }
 
-  .contact-content h4 {
-    font-size: 1.875em;
+  .map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
-  /***** FAQ - DESKTOP *****/
+  .contact-info .content-wrapper h2 {
+    width: 80%;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .contact-info h4 {
+    font-size: 1.5em;
+  }
+
+  /***** FAQ - TABLET *****/
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+
   .faq h2 {
     width: 100%;
-    font-size: 3em;
   }
 
   .faq h4,
   .faq p {
-      font-size: 1.125em;
-      line-height: 1;
+    line-height: 2;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+    /***** HOMEPAGE - DESKTOP *****/
+
+    header {
+      padding: 15px 0;
+    }
+
+    h2 {
+      font-size: 2.25em;
+    }
+
+    h3,
+    h4 {
+      font-size: 1.875em;
+    }
+
+    p {
+      font-size: 1.125em;
+      line-height: 1.333;
+    }
+
+    .content-wrapper {
+      max-width: 960px;
+    }
+
+    /** hero **/
+    .hero-area h1 {
+      width: 80%;
+      font-size: 3.75em;
+    }
+
+    /** aside **/
+    aside .content-wrapper {
+      justify-content: space-around;
+    }
+
+    aside .content-wrapper .form-info,
+    aside .content-wrapper .form {
+      width: 40%;
+    }
+
+    .form-description p {
+      font-size: 1.125em;
+    }
+
+    /** features **/
+    .features h2 {
+      width: 90%
+    }
+
+    .features article {
+      flex-basis: 33%;
+    }
+
+    /** reviews **/
+    .reviews h2 {
+      padding-bottom: 50px;
+    }
+
+    .reviews article div {
+      width: 40%;
+    }
+
+    /** footer **/
+    footer h4 {
+      font-size: 1.875em;
+    }
+
+    /***** ABOUT - DESKTOP *****/
+    .mission h2,
+    .contact-about .content-wrapper h2 {
+      width: 95%;
+      font-size: 3em;
+    }
+
+    .map {
+      padding-bottom: 40%;
+    }
+
+    .contact-content h4 {
+      font-size: 1.875em;
+    }
+
+    /***** FAQ - DESKTOP *****/
+    .faq h2 {
+      width: 100%;
+      font-size: 3em;
+    }
+
+    .faq h4,
+    .faq p {
+      font-size: 1.125em;
+      line-height: 1.4;
+    }
+  }
 
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
+Print styles.
+Inlined to avoid the additional HTTP request:
+https://www.phpied.com/delay-loading-your-print-css/
+========================================================================== */
 
 @media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
+    *,
+    *::before,
+    *::after {
+      background: #fff !important;
+      color: #000 !important;
+      /* Black prints faster */
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
 
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
 
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
+    a[href]::after {
+      content: " (" attr(href) ")";
+    }
 
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
+    abbr[title]::after {
+      content: " (" attr(title) ")";
+    }
 
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
-  }
+    /*
+    * Don't show links that are fragment identifiers,
+    * or use the `javascript:` pseudo protocol
+    */
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+      content: "";
+    }
 
-  pre {
-    white-space: pre-wrap !important;
-  }
+    pre {
+      white-space: pre-wrap !important;
+    }
 
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
+    pre,
+    blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
 
-  /*
-   * Printing Tables:
-   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
-  thead {
-    display: table-header-group;
-  }
+    /*
+    * Printing Tables:
+    * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+    */
+    thead {
+      display: table-header-group;
+    }
 
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
+    tr,
+    img {
+      page-break-inside: avoid;
+    }
 
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
 
-  h2,
-  h3 {
-    page-break-after: avoid;
+    h2,
+    h3 {
+      page-break-after: avoid;
+    }
   }
-}
